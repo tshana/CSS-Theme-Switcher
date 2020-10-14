@@ -1,0 +1,30 @@
+/* Media Queries */
+@media (max-width: 980px) {
+  .dropdown {
+    width: 425px;
+  }
+  .dropdown-item a {
+    padding-left: 2px;
+  }
+}
+@media (max-width: 785px) {
+  .dropdown {
+    width: 350px;
+  }
+  .dropdown-item a {
+    padding-left: 2px;
+  }
+  .dropdown-item a::before{
+    width: .5rem;
+    height: .5rem;
+    margin-right: 5px;
+}
+}
+@media (max-width: 630px) {
+  .dropdown {
+    width: 50%;
+  }
+  .dropdown-item a::before{
+    display: none;
+}
+}

@@ -1,0 +1,55 @@
+ /* CSS THEMES */
+ :root{
+    --primaryText: #000;
+  }
+  
+  .lightMode{
+    --primaryText:   #37474F;
+    --headerText:    #222;
+    --primaryBG:     #fff;
+    --secondaryBG:   #dee4e7;
+    --header: linear-gradient(to bottom, var(--primaryBG), var(--secondaryBG));
+    --dropdownBG:    #ebebeb;
+  }
+  .blueMode{
+    --primaryText:   #000;
+    --headerText:    rgb(233, 224, 224);
+    --primaryBG:     #4791db;
+    --secondaryBG:   #53baee;
+    --header: linear-gradient(to bottom, var(--primaryBG), var(--secondaryBG));
+    --dropdownBG:    #1799da;
+  }
+  .darkMode{
+    --primaryText:   #fff;
+    --headerText:    rgb(233, 224, 224);
+    --primaryBG:     #2a2e35;
+    --secondaryBG:   #12181b;
+    --header: linear-gradient(to bottom, var(--primaryBG), var(--secondaryBG));
+    --dropdownBG:    #12181b;
+  }
+  .forestMode{
+    --primaryText:   #05386B;
+    --headerText:    #EDF5E1;
+    --primaryBG:     #5CDB95;
+    --secondaryBG:   #93eeb6;
+    --header: linear-gradient(to bottom, var(--primaryBG), var(--secondaryBG));
+    --dropdownBG:    #379683;
+  
+  }
+  
+  .solarMode{
+    --primaryText:   #003d4c;
+    --headerText:    #05386B;
+    --primaryBG:     #fbffd4;
+    --secondaryBG:   #3ea565;
+    --header: linear-gradient(to bottom, var(--primaryBG), var(--secondaryBG));
+    --dropdownBG:    #379683;
+  }
+
+
+
+  #dark::before  { background: #2a2e35; }
+  #light::before { background: #ffffff; }
+  #solar::before { background: #fff565; }
+  #blue::before  { background: #4791db; }
+  #forest::before{ background: #5CDB95; }
