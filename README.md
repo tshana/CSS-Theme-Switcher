@@ -1,4 +1,4 @@
-[Theme Live Demo](tshana-theme-switch.netlify.app)
+[Theme Live Demo](https://tshana-theme-switch.netlify.app)
 # CSS-Theme-Switcher
  Frontend Site that lets users choose the site's theme.
 
